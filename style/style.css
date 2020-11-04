@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(219, 214, 214);
+}
+
+h2{
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    justify-content: center;
+    color: blue;
+}
+
+h2:hover{
+    font-size: 35px;
+    color: black;
+}
+
+.canvas{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: white;
+    width: 512px;
+    height: 512px;
+    margin: 10px;
+}
+
+
